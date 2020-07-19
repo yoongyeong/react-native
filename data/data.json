@@ -2,31 +2,31 @@
 	"cardList": [{
 			"id": 1,
 			"title": "King of Fighter",
-			"price": "100000",
-			"sold": "999+",
+			"price": "1550000",
+			"sold": "104",
 			"url": "https://images.unsplash.com/photo-1508138221679-760a23a2285b",
 			"isFavorite": false
 		},
 		{
 			"id": 2,
 			"title": "One Punch Man",
-			"price": "100000",
-			"sold": "999+",
+			"price": "94900",
+			"sold": "23",
 			"url": "https://images.unsplash.com/photo-1485550409059-9afb054cada4",
 			"isFavorite": true
 		},
 		{
 			"id": 3,
 			"title": "Love is War",
-			"price": "100000",
-			"sold": "999+",
+			"price": "28400",
+			"sold": "448",
 			"url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
 			"isFavorite": true
 		},
 		{
 			"id": 4,
 			"title": "Narto Sarippudin",
-			"price": "100000",
+			"price": "74000",
 			"sold": "999+",
 			"url": "https://images.unsplash.com/photo-1429087969512-1e85aab2683d",
 			"isFavorite": false
@@ -34,8 +34,8 @@
 		{
 			"id": 5,
 			"title": "One OK Rock",
-			"price": "100000",
-			"sold": "999+",
+			"price": "584000",
+			"sold": "877",
 			"url": "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
 			"isFavorite": false
 		}

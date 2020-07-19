@@ -23,6 +23,9 @@ const Carousel2 = ({ data }) => {
     <View style={{ marginTop: 8 }}>
       <FlatList
         data={data}
+        bounces
+        fadingEdgeLength={100}
+        contentContainerStyle={{ paddingHorizontal: 16 }}
         ref={flatList}
         keyExtractor={(item, index) => "key" + index}
         horizontal
@@ -78,18 +81,18 @@ const Carousel2 = ({ data }) => {
           );
 
           opacity = position.interpolate({
-            inputRange: [lVal, mVal, rVal],
-            outputRange: [0.2, 1, 0.2],
+            inputRange: [i - 1, mVal, i + 1],
+            outputRange: [0.4, 1, 0.4],
             extrapolate: "clamp",
           });
           width = position.interpolate({
-            inputRange: [lVal, mVal, rVal],
+            inputRange: [i - 1, mVal, i + 1],
             outputRange: [5, 20, 5],
             extrapolate: "clamp",
           });
           backgroundColor = position.interpolate({
-            inputRange: [lVal, mVal, rVal],
-            outputRange: ["#000", "#FFAA00", "#000"],
+            inputRange: [i - 1, mVal, i + 1],
+            outputRange: ["#e3e3e3", "#FFAA00", "#e3e3e3"],
             extrapolate: "clamp",
           });
           console.log("Opacity: ", opacity);

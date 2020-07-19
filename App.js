@@ -1,12 +1,10 @@
 import React from "react";
-import { StyleSheet, View, Dimensions, Text, Image } from "react-native";
+import { StyleSheet, View, Dimensions } from "react-native";
 
 import Header, { header } from "./components/Header";
-import HeaderIconSets from "./components/HeaderIconSets";
-import Carousel from "./components/Carousel";
 import Tabs from "./components/Tabs";
 import Cards from "./components/Cards";
-import Carousel2 from "./components/Carousel2";
+import Carousel from "./components/Carousel";
 
 const DEVICE_WIDTH = Dimensions.get("window").width;
 const DEVICE_HEIGHT = Dimensions.get("window").height;
@@ -45,13 +43,6 @@ const images = [
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Header
-        leftComponent={{
-          text: "LOGO",
-          style: { color: "#fff", fontSize: 20, zIndex: 1 },
-        }}
-        rightComponent={<HeaderIconSets />}
-      /> */}
       <Header />
       <View
         style={{
@@ -61,7 +52,6 @@ export default function App() {
           justifyContent: "center",
           width: DEVICE_WIDTH,
           zIndex: -99,
-          // backgroundColor: "salmon",
           overflow: "hidden",
         }}
       >
@@ -76,8 +66,7 @@ export default function App() {
           }}
         />
       </View>
-      {/* <Carousel data={images} /> */}
-      <Carousel2 data={images} />
+      <Carousel data={images} />
       <Tabs />
       <Cards />
     </View>
