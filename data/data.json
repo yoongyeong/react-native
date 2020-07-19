@@ -1,0 +1,79 @@
+{
+	"cardList": [{
+			"id": 1,
+			"title": "King of Fighter",
+			"price": "100000",
+			"sold": "999+",
+			"url": "https://images.unsplash.com/photo-1508138221679-760a23a2285b",
+			"isFavorite": false
+		},
+		{
+			"id": 2,
+			"title": "One Punch Man",
+			"price": "100000",
+			"sold": "999+",
+			"url": "https://images.unsplash.com/photo-1485550409059-9afb054cada4",
+			"isFavorite": true
+		},
+		{
+			"id": 3,
+			"title": "Love is War",
+			"price": "100000",
+			"sold": "999+",
+			"url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+			"isFavorite": true
+		},
+		{
+			"id": 4,
+			"title": "Narto Sarippudin",
+			"price": "100000",
+			"sold": "999+",
+			"url": "https://images.unsplash.com/photo-1429087969512-1e85aab2683d",
+			"isFavorite": false
+		},
+		{
+			"id": 5,
+			"title": "One OK Rock",
+			"price": "100000",
+			"sold": "999+",
+			"url": "https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee",
+			"isFavorite": false
+		}
+	],
+	"tabList": [{
+			"id": "1",
+			"title": "Mobile Legends",
+			"Content": "Hello from Mobile Legends"
+		},
+		{
+			"id": "2",
+			"title": "Free Fire",
+			"Content": "Hello from Free Fire"
+		},
+		{
+			"id": "3",
+			"title": "Voucher Lyto",
+			"Content": "Hello from Voucher Lyto"
+		},
+		{
+			"id": "4",
+			"title": "Voucher Garena",
+			"Content": "Hello from Voucher Garena"
+		},
+		{
+			"id": "5",
+			"title": "Arena of Valor",
+			"Content": "Hello from Arena of Valor"
+		},
+		{
+			"id": "6",
+			"title": "PUBG",
+			"Content": "Hello from Player Unknown Battle Ground"
+		},
+		{
+			"id": "7",
+			"title": "Ragnarok Frontier",
+			"Content": "Hello from Ragnarok Frontier"
+		}
+	]
+}
